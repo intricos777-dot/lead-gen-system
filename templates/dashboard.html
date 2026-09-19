@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lead Generation Dashboard</title>
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0f172a; color: #e2e8f0; }
+    .container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+    h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+    .subtitle { color: #94a3b8; margin-bottom: 2rem; }
+    .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
+    .stat-card { background: #1e293b; border-radius: 0.75rem; padding: 1.5rem; border: 1px solid #334155; }
+    .stat-value { font-size: 2.5rem; font-weight: bold; }
+    .stat-label { color: #94a3b8; font-size: 0.875rem; }
+    .high { color: #22c55e; }
+    .medium { color: #f59e0b; }
+    .low { color: #ef4444; }
+    table { width: 100%; border-collapse: collapse; background: #1e293b; border-radius: 0.75rem; overflow: hidden; }
+    th { background: #334155; padding: 1rem; text-align: left; font-size: 0.875rem; color: #94a3b8; }
+    td { padding: 0.75rem 1rem; border-bottom: 1px solid #334155; }
+    tr:hover { background: #252f42; }
+    .badge { padding: 0.25rem 0.75rem; border-radius: 999px; font-size: 0.75rem; font-weight: 600; }
+    .signal-hiring { background: #064e3b; color: #34d399; }
+    .signal-funding { background: #1e3a5f; color: #60a5fa; }
+    .signal-transformation { background: #4a1d96; color: #c084fc; }
+    .cat-high_value { background: #064e3b; color: #34d399; }
+    .cat-medium_value { background: #451a03; color: #fbbf24; }
+    .cat-low_value { background: #450a0a; color: #f87171; }
+    .footer { margin-top: 2rem; color: #64748b; font-size: 0.875rem; }
+    .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; }
+    .btn { background: #3b82f6; color: white; border: none; padding: 0.5rem 1rem; border-radius: 0.5rem; cursor: pointer; text-decoration: none; display: inline-block; }
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div>
+            <h1>🎯 AI Automation Lead Pipeline</h1>
+            <p class="subtitle">Last updated: 2026-09-19 13:46:48</p>
+        </div>
+        <a href="#" class="btn" onclick="location.refresh()">Refresh</a>
+    </div>
+
+    <div class="stats">
+        <div class="stat-card">
+            <div class="stat-value">9</div>
+            <div class="stat-label">Total Leads</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value high">7</div>
+            <div class="stat-label">High Value (75+)</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value medium">2</div>
+            <div class="stat-label">Medium Value (50-74)</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value low">0</div>
+            <div class="stat-label">Low Value (&lt;50)</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value">7</div>
+            <div class="stat-label">🔥 Hot Leads to Contact</div>
+        </div>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Company</th>
+                <th>Industry</th>
+                <th>Size</th>
+                <th>Signal</th>
+                <th>Score</th>
+                <th>Category</th>
+                <th>Outreach Angle</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        <tr>
+            <td><strong>HealthBridge</strong></td>
+            <td>healthcare</td>
+            <td>1000+</td>
+            <td><span class="badge signal-hiring">hiring</span></td>
+            <td style="color: #22c55e; font-weight: bold;">95.5</td>
+            <td><span class="badge cat-high_value">High Value</span></td>
+            <td><small>Focus on HIPAA-compliant AI for clinical workflows...</small></td>
+        </tr>
+
+        <tr>
+            <td><strong>CartForge</strong></td>
+            <td>e-commerce</td>
+            <td>50-200</td>
+            <td><span class="badge signal-funding">funding</span></td>
+            <td style="color: #22c55e; font-weight: bold;">87.0</td>
+            <td><span class="badge cat-high_value">High Value</span></td>
+            <td><small>AI-powered recommendation systems at scale...</small></td>
+        </tr>
+
+        <tr>
+            <td><strong>NovaPay</strong></td>
+            <td>fintech</td>
+            <td>50-200</td>
+            <td><span class="badge signal-hiring">hiring</span></td>
+            <td style="color: #22c55e; font-weight: bold;">85.5</td>
+            <td><span class="badge cat-high_value">High Value</span></td>
+            <td><small>Emphasize AI for fraud detection and risk modeling automatio...</small></td>
+        </tr>
+
+        <tr>
+            <td><strong>FashionAI</strong></td>
+            <td>retail</td>
+            <td>200-500</td>
+            <td><span class="badge signal-hiring">hiring</span></td>
+            <td style="color: #22c55e; font-weight: bold;">83.5</td>
+            <td><span class="badge cat-high_value">High Value</span></td>
+            <td><small>Inventory optimization and customer behavior analytics...</small></td>
+        </tr>
+
+        <tr>
+            <td><strong>WealthAI</strong></td>
+            <td>fintech</td>
+            <td>200-500</td>
+            <td><span class="badge signal-hiring">hiring</span></td>
+            <td style="color: #22c55e; font-weight: bold;">82.0</td>
+            <td><span class="badge cat-high_value">High Value</span></td>
+            <td><small>Emphasize AI for fraud detection and risk modeling automatio...</small></td>
+        </tr>
+
+        <tr>
+            <td><strong>RetailGenius</strong></td>
+            <td>retail</td>
+            <td>1000+</td>
+            <td><span class="badge signal-transformation">transformation</span></td>
+            <td style="color: #22c55e; font-weight: bold;">80.5</td>
+            <td><span class="badge cat-high_value">High Value</span></td>
+            <td><small>AI automation solutions for retail companies with 1000+ empl...</small></td>
+        </tr>
+
+        <tr>
+            <td><strong>EduLearn AI</strong></td>
+            <td>education</td>
+            <td>50-200</td>
+            <td><span class="badge signal-hiring">hiring</span></td>
+            <td style="color: #22c55e; font-weight: bold;">79.5</td>
+            <td><span class="badge cat-high_value">High Value</span></td>
+            <td><small>Adaptive learning and content personalization...</small></td>
+        </tr>
+
+        <tr>
+            <td><strong>ClaimBot</strong></td>
+            <td>insurance</td>
+            <td>20-50</td>
+            <td><span class="badge signal-transformation">transformation</span></td>
+            <td style="color: #f59e0b; font-weight: bold;">72.5</td>
+            <td><span class="badge cat-medium_value">Medium Value</span></td>
+            <td><small>AI automation solutions for insurance companies with 20-50 e...</small></td>
+        </tr>
+
+        <tr>
+            <td><strong>QuickShip AI</strong></td>
+            <td>logistics</td>
+            <td>50-200</td>
+            <td><span class="badge signal-transformation">transformation</span></td>
+            <td style="color: #f59e0b; font-weight: bold;">69.0</td>
+            <td><span class="badge cat-medium_value">Medium Value</span></td>
+            <td><small>AI automation solutions for logistics companies with 50-200 ...</small></td>
+        </tr>
+        </tbody>
+    </table>
+
+    <div class="footer">
+        <p>Pipeline auto-updates via cron schedule. CRM data: crm/leads.json</p>
+        <p>Generated by Lead Gen System v1.0</p>
+    </div>
+</div>
+</body>
+</html>

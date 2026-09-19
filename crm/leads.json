@@ -1,0 +1,243 @@
+{
+  "leads": [
+    {
+      "company": "WealthAI",
+      "industry": "fintech",
+      "size": "200-500",
+      "tech_stack": [
+        "Python",
+        "Kubernetes",
+        "Snowflake"
+      ],
+      "source": "builtin",
+      "signal_type": "hiring",
+      "url": "https://www.linkedin.com/company/wealthai",
+      "description": "WealthAI is a fintech company with 200-500 employees.",
+      "discovered_date": "2026-09-19T13:46:48.612710",
+      "contact": {
+        "name": "Jordan Lee",
+        "title": "Director of Data Science",
+        "linkedin": "https://linkedin.com/in/wealthai-exec"
+      },
+      "id": "67b1c726abf3",
+      "score": 82.0,
+      "category": "high_value",
+      "outreach_angle": "Emphasize AI for fraud detection and risk modeling automation",
+      "last_updated": "2026-09-19T13:46:48.613229",
+      "first_seen": "2026-09-19T13:46:28.647670"
+    },
+    {
+      "company": "QuickShip AI",
+      "industry": "logistics",
+      "size": "50-200",
+      "tech_stack": [
+        "Go",
+        "AWS",
+        "Terraform"
+      ],
+      "source": "builtin",
+      "signal_type": "transformation",
+      "url": "https://www.linkedin.com/company/quickship-ai",
+      "description": "QuickShip AI is a logistics company with 50-200 employees.",
+      "discovered_date": "2026-09-19T13:46:48.612730",
+      "contact": {
+        "name": "Jordan Smith",
+        "title": "VP Engineering",
+        "linkedin": "https://linkedin.com/in/quickshipai-exec"
+      },
+      "id": "71865e05f9a2",
+      "score": 69.0,
+      "category": "medium_value",
+      "outreach_angle": "AI automation solutions for logistics companies with 50-200 employees",
+      "last_updated": "2026-09-19T13:46:48.613578",
+      "first_seen": "2026-09-19T13:46:28.647695"
+    },
+    {
+      "company": "EduLearn AI",
+      "industry": "education",
+      "size": "50-200",
+      "tech_stack": [
+        "Python",
+        "PyTorch",
+        "FastAPI"
+      ],
+      "source": "builtin",
+      "signal_type": "hiring",
+      "url": "https://www.linkedin.com/company/edulearn-ai",
+      "description": "EduLearn AI is a education company with 50-200 employees.",
+      "discovered_date": "2026-09-19T13:46:48.612672",
+      "contact": {
+        "name": "Alex Patel",
+        "title": "Head of AI",
+        "linkedin": "https://linkedin.com/in/edulearnai-exec"
+      },
+      "id": "cf354722a050",
+      "score": 79.5,
+      "category": "high_value",
+      "outreach_angle": "Adaptive learning and content personalization",
+      "last_updated": "2026-09-19T13:46:48.612935",
+      "first_seen": "2026-09-19T13:46:28.647703"
+    },
+    {
+      "company": "FashionAI",
+      "industry": "retail",
+      "size": "200-500",
+      "tech_stack": [
+        "Python",
+        "PyTorch",
+        "Docker"
+      ],
+      "source": "builtin",
+      "signal_type": "hiring",
+      "url": "https://www.linkedin.com/company/fashionai",
+      "description": "FashionAI is a retail company with 200-500 employees.",
+      "discovered_date": "2026-09-19T13:46:28.647707",
+      "contact": {
+        "name": "Jordan Lee",
+        "title": "Director of Data Science",
+        "linkedin": "https://linkedin.com/in/fashionai-exec"
+      },
+      "id": "053dce8e3f88",
+      "score": 83.5,
+      "category": "high_value",
+      "outreach_angle": "Inventory optimization and customer behavior analytics",
+      "last_updated": "2026-09-19T13:46:28.648182",
+      "first_seen": "2026-09-19T13:46:28.647707"
+    },
+    {
+      "company": "CartForge",
+      "industry": "e-commerce",
+      "size": "50-200",
+      "tech_stack": [
+        "Node.js",
+        "AWS",
+        "SageMaker"
+      ],
+      "source": "builtin",
+      "signal_type": "funding",
+      "url": "https://www.linkedin.com/company/cartforge",
+      "description": "CartForge is a e-commerce company with 50-200 employees.",
+      "discovered_date": "2026-09-19T13:46:28.647710",
+      "contact": {
+        "name": "Alex Garcia",
+        "title": "Director of Data Science",
+        "linkedin": "https://linkedin.com/in/cartforge-exec"
+      },
+      "id": "df2cb1a87c77",
+      "score": 87.0,
+      "category": "high_value",
+      "outreach_angle": "AI-powered recommendation systems at scale",
+      "last_updated": "2026-09-19T13:46:28.648259",
+      "first_seen": "2026-09-19T13:46:28.647710"
+    },
+    {
+      "company": "ClaimBot",
+      "industry": "insurance",
+      "size": "20-50",
+      "tech_stack": [
+        "Python",
+        "OpenAI",
+        "FastAPI"
+      ],
+      "source": "builtin",
+      "signal_type": "transformation",
+      "url": "https://www.linkedin.com/company/claimbot",
+      "description": "ClaimBot is a insurance company with 20-50 employees.",
+      "discovered_date": "2026-09-19T13:46:48.612694",
+      "contact": {
+        "name": "Jordan Patel",
+        "title": "Director of Data Science",
+        "linkedin": "https://linkedin.com/in/claimbot-exec"
+      },
+      "id": "93b67e85339f",
+      "score": 72.5,
+      "category": "medium_value",
+      "outreach_angle": "AI automation solutions for insurance companies with 20-50 employees",
+      "last_updated": "2026-09-19T13:46:48.612985",
+      "first_seen": "2026-09-19T13:46:48.612694"
+    },
+    {
+      "company": "NovaPay",
+      "industry": "fintech",
+      "size": "50-200",
+      "tech_stack": [
+        "Python",
+        "AWS",
+        "TensorFlow"
+      ],
+      "source": "builtin",
+      "signal_type": "hiring",
+      "url": "https://www.linkedin.com/company/novapay",
+      "description": "NovaPay is a fintech company with 50-200 employees.",
+      "discovered_date": "2026-09-19T13:46:48.612704",
+      "contact": {
+        "name": "Alex Lee",
+        "title": "Director of Data Science",
+        "linkedin": "https://linkedin.com/in/novapay-exec"
+      },
+      "id": "c818aa34d57c",
+      "score": 85.5,
+      "category": "high_value",
+      "outreach_angle": "Emphasize AI for fraud detection and risk modeling automation",
+      "last_updated": "2026-09-19T13:46:48.613011",
+      "first_seen": "2026-09-19T13:46:48.612704"
+    },
+    {
+      "company": "RetailGenius",
+      "industry": "retail",
+      "size": "1000+",
+      "tech_stack": [
+        "Python",
+        "GCP",
+        "MLflow"
+      ],
+      "source": "builtin",
+      "signal_type": "transformation",
+      "url": "https://www.linkedin.com/company/retailgenius",
+      "description": "RetailGenius is a retail company with 1000+ employees.",
+      "discovered_date": "2026-09-19T13:46:48.612716",
+      "contact": {
+        "name": "Alex Patel",
+        "title": "VP Engineering",
+        "linkedin": "https://linkedin.com/in/retailgenius-exec"
+      },
+      "id": "0df8fd64d43a",
+      "score": 80.5,
+      "category": "high_value",
+      "outreach_angle": "AI automation solutions for retail companies with 1000+ employees",
+      "last_updated": "2026-09-19T13:46:48.613261",
+      "first_seen": "2026-09-19T13:46:48.612716"
+    },
+    {
+      "company": "HealthBridge",
+      "industry": "healthcare",
+      "size": "1000+",
+      "tech_stack": [
+        "Python",
+        "GCP",
+        "Vertex AI"
+      ],
+      "source": "builtin",
+      "signal_type": "hiring",
+      "url": "https://www.linkedin.com/company/healthbridge",
+      "description": "HealthBridge is a healthcare company with 1000+ employees.",
+      "discovered_date": "2026-09-19T13:46:48.612725",
+      "contact": {
+        "name": "Jordan Patel",
+        "title": "Director of Data Science",
+        "linkedin": "https://linkedin.com/in/healthbridge-exec"
+      },
+      "id": "09e18761ae80",
+      "score": 95.5,
+      "category": "high_value",
+      "outreach_angle": "Focus on HIPAA-compliant AI for clinical workflows",
+      "last_updated": "2026-09-19T13:46:48.613420",
+      "first_seen": "2026-09-19T13:46:48.612725"
+    }
+  ],
+  "stats": {
+    "total": 9,
+    "high_value": 7,
+    "last_run": "2026-09-19 13:46:48"
+  }
+}

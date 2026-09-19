@@ -1,0 +1,64 @@
+{
+  "version": "1.0",
+  "search_queries": [
+    "AI automation hiring",
+    "machine learning engineer jobs",
+    "AI transformation company",
+    "hiring data scientist",
+    "AI startup funding",
+    "Series A AI company",
+    "digital transformation hiring",
+    "RPA automation jobs",
+    "AI product manager hiring",
+    "company expanding AI team"
+  ],
+  "industries": [
+    "fintech",
+    "healthcare",
+    "e-commerce",
+    "logistics",
+    "insurance",
+    "real estate",
+    "manufacturing",
+    "retail",
+    "education",
+    "legal"
+  ],
+  "sources": {
+    "techcrunch": "https://techcrunch.com/category/artificial-intelligence/",
+    "crunchbase": "https://news.crunchbase.com/",
+    "indeed": "https://www.indeed.com/",
+    "linkedin": "https://www.linkedin.com/jobs/",
+    "venturebeat": "https://venturebeat.com/category/ai/",
+    "builtin": "https://builtin.com/jobs"
+  },
+  "scoring_weights": {
+    "company_size": 0.20,
+    "industry_fit": 0.20,
+    "hiring_signals": 0.30,
+    "tech_stack": 0.15,
+    "funding_status": 0.15
+  },
+  "thresholds": {
+    "high_value": 75,
+    "medium_value": 50,
+    "low_value": 25
+  },
+  "linkedin_integration": {
+    "enabled": true,
+    "profile_search": true,
+    "connection_request": false,
+    "message_template": "Hi {first_name}, I noticed {company} is expanding its AI capabilities. I help companies like yours implement intelligent automation solutions. Would you be open to a brief chat?"
+  },
+  "notification": {
+    "enabled": true,
+    "min_score": 75,
+    "desktop_notify": true,
+    "log_file": "logs/notifications.log"
+  },
+  "output": {
+    "crm_file": "crm/leads.json",
+    "dashboard_file": "templates/dashboard.html",
+    "log_file": "logs/lead_gen.log"
+  }
+}

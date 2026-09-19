@@ -1,0 +1,65 @@
+[
+  {
+    "company": "WealthAI",
+    "contact_name": "Jordan Lee",
+    "contact_title": "Director of Data Science",
+    "linkedin_url": "https://linkedin.com/in/wealthai-exec",
+    "message": "Hi Jordan, I noticed WealthAI is expanding its AI capabilities. I help companies like yours implement intelligent automation solutions. Would you be open to a brief chat?",
+    "generated_date": "2026-09-19T13:46:48.614718",
+    "status": "pending"
+  },
+  {
+    "company": "EduLearn AI",
+    "contact_name": "Alex Patel",
+    "contact_title": "Head of AI",
+    "linkedin_url": "https://linkedin.com/in/edulearnai-exec",
+    "message": "Hi Alex, I noticed EduLearn AI is expanding its AI capabilities. I help companies like yours implement intelligent automation solutions. Would you be open to a brief chat?",
+    "generated_date": "2026-09-19T13:46:48.614734",
+    "status": "pending"
+  },
+  {
+    "company": "FashionAI",
+    "contact_name": "Jordan Lee",
+    "contact_title": "Director of Data Science",
+    "linkedin_url": "https://linkedin.com/in/fashionai-exec",
+    "message": "Hi Jordan, I noticed FashionAI is expanding its AI capabilities. I help companies like yours implement intelligent automation solutions. Would you be open to a brief chat?",
+    "generated_date": "2026-09-19T13:46:48.614740",
+    "status": "pending"
+  },
+  {
+    "company": "CartForge",
+    "contact_name": "Alex Garcia",
+    "contact_title": "Director of Data Science",
+    "linkedin_url": "https://linkedin.com/in/cartforge-exec",
+    "message": "Hi Alex, I noticed CartForge is expanding its AI capabilities. I help companies like yours implement intelligent automation solutions. Would you be open to a brief chat?",
+    "generated_date": "2026-09-19T13:46:48.614745",
+    "status": "pending"
+  },
+  {
+    "company": "NovaPay",
+    "contact_name": "Alex Lee",
+    "contact_title": "Director of Data Science",
+    "linkedin_url": "https://linkedin.com/in/novapay-exec",
+    "message": "Hi Alex, I noticed NovaPay is expanding its AI capabilities. I help companies like yours implement intelligent automation solutions. Would you be open to a brief chat?",
+    "generated_date": "2026-09-19T13:46:48.614749",
+    "status": "pending"
+  },
+  {
+    "company": "RetailGenius",
+    "contact_name": "Alex Patel",
+    "contact_title": "VP Engineering",
+    "linkedin_url": "https://linkedin.com/in/retailgenius-exec",
+    "message": "Hi Alex, I noticed RetailGenius is expanding its AI capabilities. I help companies like yours implement intelligent automation solutions. Would you be open to a brief chat?",
+    "generated_date": "2026-09-19T13:46:48.614759",
+    "status": "pending"
+  },
+  {
+    "company": "HealthBridge",
+    "contact_name": "Jordan Patel",
+    "contact_title": "Director of Data Science",
+    "linkedin_url": "https://linkedin.com/in/healthbridge-exec",
+    "message": "Hi Jordan, I noticed HealthBridge is expanding its AI capabilities. I help companies like yours implement intelligent automation solutions. Would you be open to a brief chat?",
+    "generated_date": "2026-09-19T13:46:48.614763",
+    "status": "pending"
+  }
+]
