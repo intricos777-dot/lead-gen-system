@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Watermark: Living_Sin (intricos777-dot) + AI agents (Hermes, Lia, opencode) - collaborative work
 """
 Lead Generation & Business Intelligence System
 Searches web sources for companies needing AI automation, scores leads,

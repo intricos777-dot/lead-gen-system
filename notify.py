@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Watermark: Living_Sin (intricos777-dot) + AI agents (Hermes, Lia, opencode) - collaborative work
 """
 Send desktop notifications for high-value leads.
 Falls back gracefully if notify-send is not available.

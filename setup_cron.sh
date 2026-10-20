@@ -1,4 +1,5 @@
 #!/bin/bash
+# Watermark: Living_Sin (intricos777-dot) + AI agents (Hermes, Lia, opencode) - collaborative work
 # Lead Generation System - Cronjob Setup
 # Sets up a daily cron job to run the lead generation pipeline
 

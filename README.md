@@ -1,3 +1,4 @@
+<!-- Watermark: Living_Sin (intricos777-dot) + AI agents (Hermes, Lia, opencode) - collaborative work -->
 # AI Lead Generation & Business Intelligence System
 
 Automated lead generation system that researches companies needing AI automation, scores them, and populates a CRM pipeline.

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Watermark: Living_Sin (intricos777-dot) + AI agents (Hermes, Lia, opencode) - collaborative work
 """
 LinkedIn Outreach Integration for Lead Gen System
 Reads high-value leads and formats them for LinkedIn outreach.
